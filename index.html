@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">Yeison</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+         </header>
+     </div>
+
+     <!--SECCION INICIO-->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="conteneder-img">
+                <img src="img/Perfil.jpeg" alt="">
+            </div>
+            <h1>Yeison Orozco</h1>
+            <H2>Ingeniero Informatico</H2>
+            <div class="redes">
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+     </section>
+
+     <!--SECCION SOBRE MI-->
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Yeison Orozco </span>soy Ingeniero Informático, con una sólida formación en desarrollo de software, gestión de bases de datos y resolución de
+            problemas tecnológicos. Durante mi carrera, adquirí experiencia práctica en diversos proyectos académicos y prácticas
+            profesionales, donde desarrollé habilidades en programación con lenguajes como [Java, Python, C#, HTML, CSS, Javascript, etc.], así como en el
+            uso de herramientas y tecnologías como [Power Bi, SQL, Git, etc.].</p>
+        
+            <div class="fila">
+                <!--Datos Personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha Nacimiento</strong>
+                            20/06/2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3044990898
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            yeisonorozco55@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Medellin, Antioquia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Ingeniero Informatico
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                 <div class="col">
+                    <h1>Intereses</h1>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>VideoJuegos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-people-group"></i>
+                            <span>Tiempo familiar</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>Programación</span>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <button id="descargar-cv">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+     </section>
+
+     <!-- SECCION SKILLS -->
+      <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                 <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>.NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- Professional Skills -->
+                 <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+      </section>
+    
+      <!-- SECCION CURRICULUM -->
+      <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria Informatica</h4>
+                        <span class="casa">Universidad Autonoma Latinoamericana</span>
+                        <span class="fecha">2020 - 2024</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador de Software</h4>
+                        <span class="casa">Tecnica en SENA</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Ingeniero Informatico</h4>
+                        <span class="casa">Gobernación de Antioquia</span>
+                        <span class="fecha">Julio 2024 - Actualmente</span>
+                        <p>Me he encargado de gestionar, crear y mantener bases de datos en Excel. Además, he desarrollado tableros de control y
+                        visualizaciones interactivas en Power BI, facilitando el análisis de datos. Mi labor también ha incluido apoyar en la
+                        automatización de procesos y en la optimización del manejo de datos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador Jr</h4>
+                        <span class="casa">FLORITEX</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Participación en todos los aspectos de un proyecto
+                        tipo Uber, desde el diseño y el desarrollo. Realizado
+                        con C# y SQL Server
+                        Realizacion Página web para empresa de autobuses,
+                        esta fue realizada con HTML, CSS, JavaScript
+                        Realizacion de App para móvil funcional como
+                        calculadora y procesos matemáticos, Realizado con
+                        Android Studio ( Lenguaje Java)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- SECCION PORTFOLIO -->
+       <section class="portfolio" id="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo</h3>
+                        <p>DESCRIPCION</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo</h3>
+                        <p>DESCRIPCION</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo</h3>
+                        <p>DESCRIPCION</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo</h3>
+                        <p>DESCRIPCION</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- SECCION CONTACTO -->
+        <section class="contacto" id="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Número de Telefono">
+                        <input type="text" placeholder="Correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- Mapa -->
+                     <div class="col">
+                        <img src="img/Ubicacion.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Medellin, Antioquia
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                    3044990898
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    yeisonorozco55@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+</html>
