@@ -161,6 +161,7 @@ html {
 .sobremi .fila .col {
     font-size: 20px;
     width: 50%;
+    text-transform: none;
 }
 
 .sobremi .fila .col h3 {
