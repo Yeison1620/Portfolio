@@ -39,7 +39,7 @@ window.onscroll = function() {
     efectoHabilidades();
 }
 
-const botonDescargar = document.getElementById("descargar-cv");
+/*const botonDescargar = document.getElementById("descargar-cv");
 
 
 botonDescargar.addEventListener("click", () =>{
@@ -47,7 +47,7 @@ botonDescargar.addEventListener("click", () =>{
     link.href = "hoja de Vida Yeison Orozco.pdf";
     link.download = "hoja_de_Vida_Yeison_Orozco.pdf";
     link.click();
-});
+});*/
 
 document.body.addEventListener('focus'), (e) =>{
     e.target.blur();
